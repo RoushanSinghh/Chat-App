@@ -31,7 +31,7 @@ input {
 button {
   cursor: pointer;
   padding: 12px;
-  background: #7c5cbf;
+  background: #25D366;
   border: none;
   color: #fff;
   font-size: 16px;
@@ -80,6 +80,7 @@ button:disabled {
   display: flex;
   flex-direction: column;
   max-height: 100vh;
+  background-image: url('/img/chat-bg-img.png');
 }
 .chat__messages {
   flex-grow: 1;
